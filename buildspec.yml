@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-      - apt-get install -y texlive texlive-latex-extra tex-gyre lmodern pandoc
+      - apt-get install -y texlive texlive-latex-extra tex-gyre lmodern pandoc ssh-client
   pre_build:
     commands:
       - echo Entered the pre_build phase...

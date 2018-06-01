@@ -4,16 +4,19 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
+      - echo Install started on `date` in `pwd`
       - apt-get update -y
       - apt-get install -y texlive texlive-latex-extra tex-gyre lmodern pandoc ssh-client
   pre_build:
     commands:
       - echo Entered the pre_build phase...
+      - echo Prebuild started on `date` in `pwd`
       - make clean
+      - make ./pandoc-templates/default.latex
   build:
     commands:
       - echo Entered the build phase...
-      - echo Build started on `date`
+      - echo Build started on `date` in `pwd`
       - make
   post_build:
     commands:

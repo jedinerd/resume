@@ -2,7 +2,7 @@ Michael Hogg
 ===============
 
 5250 Zelzah Ave. #10 • Encino, Ca 91316
-[Cell](tel:+1-8050-428-2646)  [Web](resume.gecko.tc) • michaelhogg@gecko.tc
+[805-428-2646](tel:+1-805-428-2646)  [resume.gecko.tc](resume.gecko.tc) • michaelhogg@gecko.tc
 
 
 Objective

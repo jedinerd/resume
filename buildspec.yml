@@ -1,5 +1,8 @@
 version: 0.2
 
+env:
+  variables:
+    GIT_DISCOVERY_ACROSS_FILESYSTEM: true
 phases:
   install:
     commands:

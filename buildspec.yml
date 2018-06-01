@@ -15,7 +15,6 @@ phases:
       - echo Entered the pre_build phase...
       - echo Prebuild started on `date` in `pwd`
       - make clean
-      - make ./pandoc-templates/default.latex
   build:
     commands:
       - echo Entered the build phase...

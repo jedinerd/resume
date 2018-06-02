@@ -8,7 +8,7 @@ Michael Hogg
 Objective
 ---------
 
-*   A position that will utilize my experience and skills, with opportunities for continued career advancement. The ideal position will provide a challenging opportunity to significantly contribute to a company’s growth, and infrastructure stability. 
+*       A position that will utilize my experience and skills, with opportunities for continued career advancement. The ideal position will provide a challenging opportunity to significantly contribute to a company’s growth, and infrastructure stability. 
 
 
 Employment History
@@ -169,4 +169,4 @@ Skills
 
 
 
-(<span style="font-variant:small-caps;">References available upon request.</span>)[mailto:michaelhogg@gecko.tc]
+<span style="font-variant:small-caps;">References available upon request.</span>

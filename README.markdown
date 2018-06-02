@@ -1,8 +1,10 @@
-# Resume [![Example](https://img.shields.io/badge/example-pdf-green.svg)](https://github.com/mwhite/resume/raw/master/resume.pdf)
+# Resume ![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiOUVDeFNIaTVtMzlVR1NreDhVZ0xIM1BMWDlGeFIrTnFhWUdUbWtoUVczRGFZU3hITUdRS0RPdEtKQkJzYjhGNjkzRXZEY2RhK0dKV3MrYnMza2IzYmpnPSIsIml2UGFyYW1ldGVyU3BlYyI6ImNmUFBYb01SR2phay9kRDMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
 This is a simple Markdown resumé template, LaTeX header, and pre-processing
 script that can be used with [Pandoc](http://johnmacfarlane.net/pandoc/) to generate
 professional-looking PDF and HTML output.
+
+
 
 The Markdown flavor supported is
 [Pandoc markdown](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown).

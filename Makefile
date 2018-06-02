@@ -1,8 +1,8 @@
-SRC = $(wildcard *.md)
-
-PDFS=$(SRC:.md=.pdf)
-HTML=$(SRC:.md=.html)
-CSS=$(SRC:.md=.css)
+HTMLSRC = $(wildcard *.html.md)
+PDFSRC = $(wildcard *.pdf.md)
+PDFS=$(PDFSRC:.html.md=.pdf)
+HTML=$(HTMLSRC:.pdf.md=.html)
+CSS=$(HTMLSRC:.html.md=.css)
 LATEX_TEMPLATE=./default.latex
 all:   pre copycss $(PDFS) $(HTML)
 pre:   outdir clean

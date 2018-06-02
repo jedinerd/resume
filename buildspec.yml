@@ -16,7 +16,7 @@ phases:
       - echo Copying files to s3
       - aws s3 cp --recursive --acl public-read ./out s3://resume.gecko.tc/
       - echo invalidating cloudfront cache
-      - aws cloudfront create-invalidation --distribution-id E2LL9ZONPEXXZ8 --paths /resume.pdf /resume.css /resume.html
+      - aws cloudfront create-invalidation --distribution-id E2LL9ZONPEXXZ8 --paths /resume.pdf /resume.css /resume.html /index.html /
 artifacts:
   files:
     - resume.md

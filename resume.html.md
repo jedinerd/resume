@@ -168,4 +168,5 @@ Skills
 
 
 
-References available upon request.
+
+(<span style="font-variant:small-caps;">References available upon request.</span>)[mailto:michaelhogg@gecko.tc]

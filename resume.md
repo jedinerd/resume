@@ -108,13 +108,9 @@ Employment History
     -   Managed and administrated 5000+ Windows 2k8 and Windows 2k3 servers, running IIS, MS SQL, and other internally developed services.
     -   Aided in managing DNS for the production site using Akamai DNS and UltraDNS.
     -   Completed a site wide migration of bare metal Windows 2k8 hosts  to using Xen virtualization.
-    -   Managed a team of 20+ Analysts and Administrators that work 24/7. 
-    -   Wrote Cacti and Nagios plugins to aid in site monitoring.
+    -   Managed, staffed, and trained a team of 20+ Analysts and Administrators that work 24/7. 
     -   Supported and responded to issues from internal users for Splunk, processing more than 500 GB of logs daily.
     -   Developed, maintained, and supported internal tools for aiding in team productivity, reporting, and site monitoring using Ruby, PHP, MySQL, MS SQL and Powershell.  
-    -   Configured and maintained Apache, PHP and MySQL for tools served to internal users.
-    -   Developed scripts using Watir for testing a myriad of features on the production site. 
-    -   Responsible for hiring and training new team members. 
     -   Responsible for managing the communication between Production Operations and the Executives. 
     -   Wrote and maintained technical documentation for processes and tools. 
 
@@ -132,17 +128,13 @@ Employment History
 
 *   **Shopzilla.com** 
 
-    *Co-founder*, 5/09 - 7/11
+    *Support Analyst, Operations*, 5/09 - 7/11
 
     -   Responsible for system-wide monitoring of enterprise servers, network infrastructure, consumer and merchant site alerts using Nagios, Cacti and SiteScope.
-    -   Manage enterprise production environment consisting of 3000+ servers in 3 data centers, comprised primarily of Centos 4/5 and redhat 4/5.
+    -   Managed enterprise production environment consisting of 3000+ servers in 3 data centers, comprised primarily of Centos 4/5 and redhat 4/5.
     -   Tier 1 incident response, responsible for escalating issues based on documented procedures. 
     -   Responsible for managing BMC job scheduling environment consisting of 10,000 perl and BASH Job per day. 
-    -   Deployed code to production environment. 
-    -   Wrote scripts in BASH to aid in automating tasks.
-    -   Wrote technical documentation and procedures. 
-    -   Performed basic user administration for Microsoft ActiveDirectory. 
-    -   Aided in training junior team members. 
+    -   Wrote, deployed, and maintained a number of production facing bash scripts used in deployments.
 
 
 

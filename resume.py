@@ -44,7 +44,7 @@ import sys
 import re
 
 
-GRAVATAR = "http://www.gravatar.com/avatar/8afaf2b634c2e4665b62db4734c08fbc?s=200"
+GRAVATAR = "https://www.gravatar.com/avatar/8afaf2b634c2e4665b62db4734c08fbc?s=200"
 
 
 class Processor(object):

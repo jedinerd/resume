@@ -2,18 +2,18 @@ SRC = $(wildcard *.md)
 
 PDFS=$(SRC:.md=.pdf)
 HTML=$(SRC:.md=.html)
+CSS=$(SRC:.md=.css)
 LATEX_TEMPLATE=./default.latex
-
-all:    clean $(PDFS) $(HTML)
-
-pdf:   clean $(PDFS)
-html:  clean $(HTML)
+all:   pre copycss $(PDFS) $(HTML)
+pre:   outdir clean
+pdf:   pre $(PDFS)
+html:  pre copycss $(HTML)
 
 %.html: %.md
-	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc -t html -c resume.css -o $@
+	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc -t html -c $(CSS) -o out/$@
 
 %.pdf:  %.md
-	python resume.py tex < $< | pandoc $(PANDOCARGS) --variable subparagraph --template=$(LATEX_TEMPLATE) -H header.tex -o $@
+	python resume.py tex < $< | pandoc $(PANDOCARGS) --variable subparagraph --template=$(LATEX_TEMPLATE) -H header.tex -o out/$@
 
 ifeq ($(OS),Windows_NT)
   # on Windows
@@ -23,5 +23,11 @@ else
   RM = rm -f
 endif
 
+copycss:
+	cp $(CSS) out/ 
+	
 clean:
-	$(RM) *.html *.pdf
+	$(RM) *.html *.pdf out/*
+	
+outdir:
+	mkdir -p out

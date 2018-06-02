@@ -1,8 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    GIT_DISCOVERY_ACROSS_FILESYSTEM: true
 phases:
   install:
     commands:
@@ -23,14 +20,12 @@ phases:
   post_build:
     commands:
       - echo Entered the post_build phase...
+      - aws s3 cp --recursive --acl public-read ./out s3://resume.gecko.tc/
       - echo Build completed on `date`
 artifacts:
   files:
     - resume.md
-    - resume.pdf
-    - resume.css
-    - resume.html
+    - out/resume.pdf
+    - out/resume.css
+    - out/resume.html
   discard-paths: yes
-cache:
-  paths:
-    - '/var/cache/apt/archives/*'

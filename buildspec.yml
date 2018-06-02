@@ -1,10 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - apt-get update -y
-      - apt-get install -y texlive texlive-latex-extra tex-gyre lmodern pandoc ssh-client
   pre_build:
     commands:
       - make clean

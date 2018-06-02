@@ -159,13 +159,6 @@ Community Experience:
 
 
 
-Skills
-------
-
-*   Very experienced with Python, Markdown, \LaTeX
-
-*   Familiar with GNU Make, bash
-
 
 
 

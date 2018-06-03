@@ -1,34 +1,25 @@
-HTMLSRC = $(wildcard *.html.md)
-PDFSRC = $(wildcard *.pdf.md)
-MAINSRC = $(wildcard *.main)
-PDFS=$(PDFSRC:.pdf.md=.pdf)
-HTML=$(HTMLSRC:.html.md=.html)
+SRC = $(wildcard *.md)
 CSS=$(HTMLSRC:.html.md=.css)
+PDFS=$(SRC:.md=.pdf)
+HTML=$(SRC:.md=.html)
 LATEX_TEMPLATE=./default.latex
+
 all:   pre copycss $(PDFS) $(HTML)
 pre:   outdir clean
-pdf:   pre $(PDFS)
+pdf:   clean $(PDFS)
 html:  pre copycss $(HTML)
 
-%.html: %.html.md
-	cat $< $(MAINSRC) >> html.md
-	python resume.py html $(GRAVATAR_OPTION) < html.md | pandoc -t html -c $(CSS) -o out/$@
+%.html: %.md
+	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc -t html -c resume.css -o out/$@
 
-%.pdf:  %.pdf.md
-	cat $< $(MAINSRC) >> pdf.md
-	python resume.py tex < pdf.md | pandoc $(PANDOCARGS) --variable subparagraph --template=$(LATEX_TEMPLATE) -H header.tex -o out/$@
-
-ifeq ($(OS),Windows_NT)
-  # on Windows
-  RM = cmd //C del
-else
-  # on Unix
-  RM = rm -f
-endif
+%.pdf:  %.md
+	python resume.py tex < $< | pandoc $(PANDOCARGS) --variable subparagraph --template=$(LATEX_TEMPLATE) -H header.tex -o out/$@
 
 copycss:
 	cp $(CSS) out/ 
+
 clean:
-	$(RM) *.html *.pdf out/* html.md pdf.md
+	rm -f out/* 
+
 outdir:
 	mkdir -p out

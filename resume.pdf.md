@@ -5,4 +5,3 @@ Michael Hogg
 [805-428-2646](tel:+1-805-428-2646) • <http://resume.gecko.tc> • <michaelhogg@gecko.tc>
 
 
----------

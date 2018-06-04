@@ -19,13 +19,13 @@ Employment History
     *Sr Devops engineer, Cloud Services* | 2/18 - Present
 
     -   Responsible for developing and deploying solutions for Onica’s clients using a variety of automation and cloud technologies.
+    -   Worked extensively with a large number of amazon services including EC2, EB, EBS, S3, CF, R53, RDS, Lambda, CloudWatch, SSM, AWS WAF, GuardDuty.
+    -   Developed, managed, debugged, and maintained the following: Chef cookbooks, Python scripts, stacker blueprints, troposphere scripts, Ruby scripts, Bash scripts, CloudFormation templates, and Puppet manifests.
     -   Developed and deployed stacker / troposphere based SSM patching solution for windows and linux that could be deployed to many client accounts.
     -   Developed, documented and mapped reference SDLC business process for a 3 tier environment using a gated approach.
     -   Developed and deployed stacker / troposphere based AWS WAF security automation system that could be deployed to many client accounts.
-    -   Developed, managed, debugged, and maintained the following: Chef cookbooks, Python scripts, stacker blueprints, troposphere scripts, Ruby scripts, Bash scripts, CloudFormation templates, and Puppet manifests.
     -   Developed and deployed chef packaged activemq monitoring solution.
     -   Developed and deployed chef tomcat module utilizing cutting edge log4j2 with internal logging apis to allow backwards compatibility with sl4j, and log4j, as well as class loader customizations to allow for maximum compatibility between clients.
-    -   Worked extensively with a large number of amazon services including EC2, EB, EBS, S3, CF, R53, RDS, Lambda, CloudWatch, SSM, AWS WAF, GuardDuty.
     -   Extensive experience working within agile and kanban project management systems.
 
 

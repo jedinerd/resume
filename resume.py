@@ -137,7 +137,7 @@ def html(lines, contact_lines, *args):
     if gravatar is not None:
         contact_lines.insert(0, "<img src='{}' />".format(gravatar))
     contact_lines.extend(['[Download PDF](/resume.pdf)',
-        '[![build status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiOUVDeFNIaTVtMzlVR1NreDhVZ0xIM1BMWDlGeFIrTnFhWUdUbWtoUVczRGFZU3hITUdRS0RPdEtKQkJzYjhGNjkzRXZEY2RhK0dKV3MrYnMza2IzYmpnPSIsIml2UGFyYW1ldGVyU3BlYyI6ImNmUFBYb01SR2phay9kRDMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master](resume.gecko.tc.pdf))'
+        '[<img src="https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiOUVDeFNIaTVtMzlVR1NreDhVZ0xIM1BMWDlGeFIrTnFhWUdUbWtoUVczRGFZU3hITUdRS0RPdEtKQkJzYjhGNjkzRXZEY2RhK0dKV3MrYnMza2IzYmpnPSIsIml2UGFyYW1ldGVyU3BlYyI6ImNmUFBYb01SR2phay9kRDMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master">](resume.gecko.tc.pdf)'
         ])
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
                  ("<p>" + "</p><p>".join(contact_lines) + "</p>"))

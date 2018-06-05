@@ -159,4 +159,4 @@ Community Experience:
 <span style="font-variant:small-caps;">References available upon request.</span>
 
 
-<Click here for how this resume is built.>(resume.gecko.tc.pdf)
+<span style="font-variant:small-caps;"><Click here for how this resume is built.>(/resume.gecko.tc.pdf)</span>

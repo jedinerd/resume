@@ -9,14 +9,28 @@ Michael Hogg
 Objective
 ---------
 
-*   A position which will utilize my experience and skills to significantly contribute to a company’s growth and infrastructure stability.
+*   A position which will utilize my experience and skills to significantly contribute to a company’s growth and infrastructure stability. #TODO mention security  agility
 
 Employment History
 ------------------
 
+*   **Enterprise Alumni** (West Hollywood, CA)
+
+    *Devops Architect* | 6/18 - 9/19
+
+    -   Develop / plan / implement architecture
+    -   Manage off shore devops team
+    -   Planned / implemented migration from SAP to AWS
+    -   Implemented infrastructure as code using terraform, gruntworks, troposphere, jenkins
+    -   Implemented internal and customer facing serverless solutions using jenkins, lambda@edge, and python.
+    -   Designed and implemented scalable application infrastructure using cloudfront, lambda, and ECS reducing the time to provision a new customer from 2 weeks to 4 hours.
+    -   Overhauled non functioning CI / CD process, implemented sane merging practices, implemented light weight git flow process
+    -   Security vpn, cloudtrail, guardduty, separation of duties, github permissions, database permissions, password overhaul, 2 factor authentication, s3 audit, aws permissions audit, external security audit
+    -   Cost / budget analysis, cost refactoring, 
+
 *   **Onica** (Encino, CA)
 
-    *Sr Devops engineer, Cloud Services* | 2/18 - Present
+    *Sr Devops engineer, Cloud Services* | 2/18 - 6/18
 
     -   Responsible for developing and deploying solutions for Onica’s clients using a variety of automation and cloud technologies.
     -   Worked extensively with a large number of amazon services including EC2, EB, EBS, S3, CF, R53, RDS, Lambda, CloudWatch, SSM, AWS WAF, GuardDuty.
@@ -140,7 +154,7 @@ Community Experience:
 
 *   **Villa Encino Homeowners Association** 
 
-    *President* | 5/15 - Present
+    *President* | 5/15 - 12/18
 
     -   Responsibilities include conducting HOA meetings, handling building emergencies and tenant conflicts, and advocating for tenant needs and interests.
 

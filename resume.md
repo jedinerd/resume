@@ -9,7 +9,7 @@ Michael Hogg
 Objective
 ---------
 
-*   A position which will utilize my experience and skills to significantly contribute to a company’s growth and infrastructure stability. #TODO mention security  agility
+*   A position which will utilize my experience and skills to significantly contribute to a company’s agility, stability, security and scalability.
 
 Employment History
 ------------------
@@ -18,15 +18,16 @@ Employment History
 
     *Devops Architect* | 6/18 - 9/19
 
-    -   Develop / plan / implement architecture
-    -   Manage off shore devops team
-    -   Planned / implemented migration from SAP to AWS
-    -   Implemented infrastructure as code using terraform, gruntworks, troposphere, jenkins
-    -   Implemented internal and customer facing serverless solutions using jenkins, lambda@edge, and python.
-    -   Designed and implemented scalable application infrastructure using cloudfront, lambda, and ECS reducing the time to provision a new customer from 2 weeks to 4 hours.
-    -   Overhauled non functioning CI / CD process, implemented sane merging practices, implemented light weight git flow process
-    -   Security vpn, cloudtrail, guardduty, separation of duties, github permissions, database permissions, password overhaul, 2 factor authentication, s3 audit, aws permissions audit, external security audit
-    -   Cost / budget analysis, cost refactoring, 
+    -   Responsible for planning, devoloping and implementing all architecture, infrastructure and operations solutions with a focus on cost and scalability.
+    -   Responsible for the ongoing management of a remote devops team, requiring daily planning, coaching, and guidance.
+    -   Responsible for planning and implementing the migration of all applications from SAP / HANA DB to AWS using ECS, docker, terraform, and postgres.  This reduced costs by 75% and allowed for the dynamic scaling of infrastructure to meet workloads.
+    -   Implemented infrastructure as code using terraform, gruntworks, troposphere, and jenkins to allow for the peer review of infrastructure changes, improved scalability, and increased operational agility.
+    -   Implemented internal and customer facing serverless solutions using jenkins, lambda@edge, and python to quickly meet customer needs outside traditional dev timelines at an extremely low cost.
+    -   Designed and implemented scalable application infrastructure using cloudfront, lambda, and ECS reducing the time to provision a new customer from two weeks to four hours.
+    -   Overhauled nonfunctioning CI / CD process by implementing sane merging practices using a  light weight git flow process to increase code base stability and security.
+    -   Improved company security standards using separation of duties, password policies, 2 factor authentication, github permissions, database permissions, and external security audits.
+    -   Improved security using company wide vpn, cloudtrail, guardduty, s3 auditiing, IAM policy audit to minimize attack surfaces and mitigate risk.
+    -   Lowered infrastructure cost using automated analysis tools, budgets, reduction in persistant infrastructure, and load forecasting.
 
 *   **Onica** (Encino, CA)
 

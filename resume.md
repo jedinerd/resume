@@ -22,7 +22,7 @@ Employment History
     -   Responsible for the ongoing management of a remote devops team, requiring daily planning, coaching, and guidance.
     -   Responsible for planning and implementing the migration of all applications from SAP / HANA DB to AWS using ECS, docker, terraform, and postgres.  This reduced costs by 75% and allowed for the dynamic scaling of infrastructure to meet workloads.
     -   Implemented infrastructure as code using Terraform, Gruntworks, Troposphere, and Jenkins to allow for the peer review of infrastructure changes, improved scalability, and increased operational agility.
-    -   Implemented internal and customer facing serverless solutions using Jenkins, Lambda@Edge, and Python to quickly meet customer needs outside traditional development timelines at an extremely low cost.
+    -   Implemented internal and customer-facing serverless solutions using Jenkins, Lambda@Edge, and Python to quickly meet customer needs outside traditional development timelines at an extremely low cost.
     -   Designed and implemented scalable application infrastructure using Cloudfront, Lambda, and ECS reducing the time to provision a new customer from two weeks to four hours.
     -   Overhauled nonfunctioning CI / CD process by implementing sane merging practices using a  light weight Git-flow process to increase code base stability, agility and security.
     -   Improved company security standards using separation of duties, password policies, 2 factor authentication, Github permissions, database permissions, and external security audits.

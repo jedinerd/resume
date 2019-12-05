@@ -24,10 +24,10 @@ Employment History
     -   Implemented infrastructure as code using terraform, gruntworks, troposphere, and jenkins to allow for the peer review of infrastructure changes, improved scalability, and increased operational agility.
     -   Implemented internal and customer facing serverless solutions using jenkins, lambda@edge, and python to quickly meet customer needs outside traditional dev timelines at an extremely low cost.
     -   Designed and implemented scalable application infrastructure using cloudfront, lambda, and ECS reducing the time to provision a new customer from two weeks to four hours.
-    -   Overhauled nonfunctioning CI / CD process by implementing sane merging practices using a  light weight git flow process to increase code base stability and security.
-    -   Improved company security standards using separation of duties, password policies, 2 factor authentication, github permissions, database permissions, and external security audits.
-    -   Improved security using company wide vpn, cloudtrail, guardduty, s3 auditiing, IAM policy audit to minimize attack surfaces and mitigate risk.
-    -   Lowered infrastructure cost using automated analysis tools, budgets, reduction in persistant infrastructure, and load forecasting.
+    -   Overhauled nonfunctioning CI / CD process by implementing sane merging practices using a  light weight git flow process to increase code base stability, agility and security.
+    -   Improved company security standards using separation of duties, password policies, 2 factor authentication, Github permissions, database permissions, and external security audits.
+    -   Improved security using company wide vpn, cloudtrail, guardduty, S3 auditiing, IAM policy audit to minimize attack surfaces and mitigate risk.
+    -   Lowered infrastructure cost using automated analysis tools, budgets, reduction in persistent infrastructure, and load forecasting.
 
 *   **Onica** (Encino, CA)
 

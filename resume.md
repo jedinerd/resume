@@ -139,7 +139,7 @@ Employment History
 
 *   **killer bee IT** 
 
-    *Co-founder* | 5/09 - 7/11
+    *Co-founder* | 5/09 - 12/19
 
     -   Responsible for managing all aspects of providing dedicated hosting to medium sized websites and businesses including data center operations, system administration, deploying solutions such as Nagios, LibreNMS, Zabbix, pfSense, Subsonic, Synology, Drupal, handling client relations and billing.
     -   Configured and managed apache for 30+ websites running on Ubuntu VMs backed by VMware.

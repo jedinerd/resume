@@ -16,14 +16,13 @@ Employment History
 *   **Scopely Games Barcelona** (Los Angeles, CA)
 
     *Devops Manager, Contractor* | 3/20 - 10/20
-    -   Planned, designed and implemented migration of services from legacy EC2 backed kubernetes cluster to EKS utilizing terraform and terragrunt.
-    -   Designed and implemented multi-account / multi-environment terraform/terragrunt repo encompassing all involved AWS services, kubernetes services, monitoring, and log aggregation.
-    -   Implemented and evangelized modern operations practices such as infrastructure as code, separation of duties, tag enforcement and gitflow.
+    -   Planned, designed and implemented a migration of services from a legacy EC2 backed kubernetes cluster to EKS utilizing terraform and terragrunt.
+    -   Designed and implemented a multi-account / multi-environment terraform/terragrunt repo encompassing all involved AWS services, kubernetes services, monitoring, and log aggregation.
     -   Responsible for the ongoing management of a remote devops team, requiring daily planning, and technical guidance.
     -   Designed and implemented end to end automation allowing the average time for a new microservice to reach production to be reduced from weeks to days.
+    -   Implemented and evangelized modern operational practices such as infrastructure as code, separation of duties, tag enforcement and gitflow.
     -   Planned and presented a new devops roadmap based on an indepth evaluation of existing technical debt.
-    -   Designed and implemented AWS cost reduction strategy using cloudhealth for analysis.
-    -   Managed relationships with technical vendors.  
+    -   Designed and implemented AWS cost reduction strategy using cloudhealth for analysis.  
     
 *   **Enterprise Alumni** (West Hollywood, CA)
 
